@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>Swinburne University, Sarawak, Malaysia</title>
+	<meta charset="utf-8" />
+	<meta name="author" content="Jason Ang Chia Wuen" />
+	<meta name="description" content="Swinburne Website" />
+	<meta name="keywords" content="Swinburne, University" />
+</head>
+
+<body>
+
+	<header>
+		<img src="Images/logo.png" alt="Swinburne Logo" />
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="http://www.swinburne.edu.my/contact/">Contact Us</a>|</li>
+			<li><a href="http://www.swinburne.edu.my/hr/">Jobs at Swinburne</a>|</li>
+			<li><a href="http://www.swinburne.edu.au/copyright-disclaimer/">Copyright and disclaimer</a>|</li>
+			<li><a href="https://www.swinburne.edu.my/?p=1295">Privacy</a>|</li>
+			<li><a href="https://www.swinburne.edu.my/?p=1311">Accessibility</a>|</li>
+			<li><a href="https://www.swinburne.edu.my/?p=1318">Feedback</a></li>
+			<li><a href="register.html">Register</a></li>
+		</ul>
+	</nav>
+	
+	<form method="post" action="mailto:r.mukuro00@hotmail.com">
+		<fieldset>
+			<legend>Personal Details</legend>
+			<p><label for="name">Name:</label>
+				<input type="text" name="name" id="name" required="required" placeholder="Your name" />
+				*
+			</p>
+			
+			<p><label for="email">Email:</label>
+				<input type="email" name="email" id="email" required="required" placeholder="Your email" />
+				*
+			</p>
+			
+			<p><label for="dob">Date of birth:</label>
+				<input type="text" name="date of birth" id="dob" />
+			</p>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Your unit</legend>
+			
+			<label for="cos10011"><input type="radio" name="course" value="COS10011" id="cos10011" />COS10011</label>
+			
+			<label for="cos60004"><input type="radio" name="course" value="COS60004" id="cos60004" />COS60004</label>
+			
+			<label for="cos60007"><input type="radio" name="course" value="COS60007" id="cos60007" />COS60007</label>
+			
+			<p><label for="tutor">Your Tutor:</label>
+				<select name="tutor" id="tutor">
+					<option value="tutor1" selected="selected">Tutor 1</option>
+					<option value="tutor2">Tutor 2</option>
+					<option value="tutor3">Tutor 3</option>
+				</select>
+			</p>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Issue</legend>
+			
+			<label for="html"><input type="checkbox" name="issue" value="html" id="html" />HTML</label>
+			<label for="css"><input type="checkbox" name="issue" value="css" id="css" />CSS</label>
+			<label for="java"><input type="checkbox" name="issue" value="java" id="java" />JavaSript</label>
+			<label for="php"><input type="checkbox" name="issue" value="php" id="php" />PHP</label>
+			<label for="mysql"><input type="checkbox" name="issue" value="mysql" id="mysql" />MySQL</label>
+			
+			<p>
+				<label for="description">Description of Issue<br />
+				<textarea name="issue_description" placeholder="Enter comments here" rows="4"
+				cols="20" id="description"></textarea>
+				</label>
+			</p>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Preferred Date/Time</legend>
+			
+			<p><label for="date">Date:
+				<input id="date" type="text" name="date" pattern="\d{1,2}\/\d{1,2}\/\d{4}" placeholder="dd/mm/yyyy" />
+			</label></p>
+			
+			<p><label for="time">Time:
+				<input id="time" type="text" name="time" pattern="^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$" placeholder="00:00" />
+			</label></p>
+			
+		</fieldset>
+			<p>
+				<input type="submit" value="Register" />
+				<input type="reset" value="Reset" />
+			</p>
+	</form>
+	
+	<footer>	
+		<p>Posted by: Jason Ang Chia Wuen</p>
+		
+		<p>Contact information: <a href="mailto:r.mukuro00@hotmail.com">r.mukuro00@hotmail.com</a></p>
+	</footer>
+		
+</body>
+
+</html>

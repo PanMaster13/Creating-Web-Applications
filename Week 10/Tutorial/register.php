@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="styles/jasonstyle.css" />
+	<title>Swinburne University, Sarawak, Malaysia</title>
+	<meta charset="utf-8" />
+	<meta name="author" content="Jason Ang Chia Wuen" />
+	<meta name="description" content="Swinburne Website" />
+	<meta name="keywords" content="Swinburne, University" />
+</head>
+<script src="js/validation.js"></script>
+<body>
+
+	<script src="js/navigation.js"></script>
+	
+	<form name="Form" id="Form" method="post" action="confirm.php" novalidate="novalidate" onsubmit="validateForm()">
+		<fieldset>
+			<legend>Personal Details</legend>
+			<p><label for="name">Name:</label>
+				<input type="text" name="name" id="name" placeholder="Your name" />
+				*
+			</p>
+			
+			<p><label for="email">Email:</label>
+				<input type="email" name="email" id="email" placeholder="Your email" />
+				*
+			</p>
+			
+			<p><label for="dob">Date of birth:</label>
+				<input type="text" name="dob" id="dob" />
+			</p>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Your unit</legend>
+			
+			<label for="cos10011"><input type="radio" name="course" value="COS10011" id="cos10011" />COS10011</label>
+			
+			<label for="cos60004"><input type="radio" name="course" value="COS60004" id="cos60004" />COS60004</label>
+			
+			<label for="cos60007"><input type="radio" name="course" value="COS60007" id="cos60007" />COS60007</label>
+			
+			<p><label for="tutor">Your Tutor:</label>
+				<select name="tutor" id="tutor">
+					<option value="tutor1" selected="selected">Tutor 1</option>
+					<option value="tutor2">Tutor 2</option>
+					<option value="tutor3">Tutor 3</option>
+				</select>
+			</p>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Issue</legend>
+			
+			<label for="html"><input type="checkbox" name="issue" value="html" id="html" />HTML</label>
+			<label for="css"><input type="checkbox" name="issue" value="css" id="css" />CSS</label>
+			<label for="java"><input type="checkbox" name="issue" value="java" id="java" />JavaSript</label>
+			<label for="php"><input type="checkbox" name="issue" value="php" id="php" />PHP</label>
+			<label for="mysql"><input type="checkbox" name="issue" value="mysql" id="mysql" />MySQL</label>
+			
+			<p>
+				<label for="description">Description of Issue<br />
+				<textarea name="issue_description" placeholder="Enter comments here" rows="4"
+				cols="20" id="description"></textarea>
+				</label>
+			</p>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Preferred Date/Time</legend>
+			
+			<p><label for="date">Date:
+				<input id="date" type="text" name="date" placeholder="dd/mm/yyyy" />
+			</label></p>
+			
+			<p><label for="time">Time:
+				<input id="time" type="text" name="time" placeholder="00:00" />
+			</label></p>
+			
+		</fieldset>
+			<p>
+				<input type="submit" value="Register" />
+				<input type="reset" value="Reset" />
+			</p>
+	</form>
+	
+	<script src="js/footer.js"></script>
+</body>
+
+</html>

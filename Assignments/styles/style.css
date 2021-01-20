@@ -1,0 +1,1034 @@
+/* apply style to all */
+*{
+	box-sizing: border-box;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+/*apply style to all web page that has body */
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	position: relative;
+}
+
+/*nav CSS */
+nav{
+	overflow:hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+ }
+nav img{
+	width: 100%;
+	float: left;
+	max-width: 150px;
+	margin-left: 10%;
+	margin-right: -50%;
+}
+
+nav ul{
+	list-style: none;
+	background-color: black;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+nav li {
+	width: 160px;
+    border-bottom: none;
+    height: 5%;
+    line-height: 60px;
+    font-size: 1.4em;
+	display: inline-block;
+    margin-right: -4px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	transition: .3s background-color;
+}
+
+nav a:hover {
+	background-color: #C6BB25;
+}
+
+.dropdownbtn{
+	cursor: pointer;
+}
+
+.dropdown_content{
+	display: none;
+	overflow: hidden;
+	position: fixed;
+	top: 1;
+	z-index: 1;
+	background-color: black;
+	text-align: center;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.show{
+	display: block;
+}
+
+/*maps */
+.responsive-map-container {
+	padding-top:5%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+	font-size: 1.4vw;
+	background-image: url("images/RR.jpg");
+
+	/* Set a specific height */
+	height:800px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index:1;
+	text-align: center;
+	color: white;
+}
+
+.responsive-map-container iframe,   
+.responsive-map-container object,  
+.responsive-map-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top:15%;
+}
+
+.background_shadding_slide2{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom:10%;
+	color:white;
+	box-shadow: 0 0 8px 1px rgba(0, 0, 0, .7);
+}
+
+/* index.html CSS */
+.top_button img{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 5%;
+	z-index: 1;
+	opacity: 0.2;
+}
+
+.top_button img:hover{
+	opacity: 1;
+	transition: 0.2s;
+}
+
+.first_slide{
+		/* The image used */
+		background-image: url("images/lambo1.jpg");
+
+		/* Set a specific height */
+		height: 950px;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align:center;
+		font-size: 1.5vw;
+	}
+
+#logo{
+	width: 60%;
+	margin-top:9%;
+}
+
+.background_shading_slide1{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 10%;
+	position:absolute;
+	height: 20%;
+	color:white;
+	box-shadow: 0 0 8px 1px rgba(0, 0, 0, .7);
+
+}
+
+.index_hr{
+	width: 5%;
+
+}
+
+.facebook_logo, .instagram_logo{
+	width: 10%;
+	margin:1%;
+}
+
+.service{
+	font-size: 1.4vw;
+	padding-top: 8%;
+	background-image: url("images/marcadis.jpg");
+
+	/* Set a specific height */
+	height:800px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index:1;
+	text-align: center;
+}
+
+.main_title{
+		text-align:center;
+}
+
+.background_shading{
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 90%;
+	background-color: #685959;
+	opacity: 0.8;
+	color:white;
+	overflow: auto;
+}
+
+.content_1{
+	float:left;
+	width: 23%;
+	margin-left:10%;
+	margin-right: 3%;
+	height: 40%;
+
+}
+
+.content_2{
+	width: 23%;
+	float:left;
+	margin-left:3%;
+	margin-right: 3%;
+	height: 40%;
+}
+
+.content_3{
+	width:23%;
+	float:left;
+	height: 40%;
+	margin-left:3%;
+	margin-right: 3%;
+}
+
+.content_4{
+	float:left;
+	width: 23%;
+	margin-left:10%;
+	margin-right: 3%;
+	margin-top: 3%;
+	height: 40%;
+}
+
+.content_5{
+	width:23%;
+	float:left;
+	margin-left:3%;
+	margin-right: 3%;
+	margin-top: 3%;
+	height: 40%;
+}
+
+.content_6{
+	width:23%;
+	float:left;
+	margin-left:3%;
+	margin-right: 3%;
+	margin-top: 3%;
+	height: 40%;
+}
+
+.container_content{
+	text-align: center;
+}
+
+.testimonials{
+	margin-right: 20%;
+	margin-left: 20%;
+	text-align:center;
+	height: 600px;
+}
+
+.testimonial_title{
+	font-size: 1.7vw;
+}
+
+.intro_hr{
+	width: 10%;
+}
+
+.testimonial_1 img , .testimonial_2 img, .testimonial_3 img, .testimonial_4 img{
+	width: 50%;
+}
+
+.testimonial_1{
+	float:left;
+	width: 18%;
+	float:left;
+	margin-left:3%;
+	margin-right: 3%;
+	margin-top: 6%;
+	font-size: 1.4vw;
+}
+
+.testimonial_2{
+	float:left;
+	width: 18%;
+	float:left;
+	margin-left:3%;
+	margin-right: 3%;
+	margin-top: 6%;
+	font-size: 1.4vw;
+}
+.testimonial_3{
+	float:left;
+	width: 18%;
+	float:left;
+	margin-left:3%;
+	margin-right: 3%;
+	margin-top: 6%;
+	font-size: 1.4vw;
+}
+
+.testimonial_4{
+	float:left;
+	width: 18%;
+	float:left;
+	margin-left:3%;
+	margin-right: 3%;
+	margin-top: 6%;
+	font-size: 1.4vw;
+
+}
+
+
+/* CSS for car list web page */
+
+.carlist{
+	background-color: #2e2828;
+}
+
+.car_list_article{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.car_list_article h1{
+	color: white;
+	text-align: center;
+	margin-top: 6%;
+	font-size: 2em;
+}
+
+.carlist .car_item a img{
+	width: 100%;
+}
+
+.carlist .car_item a:link{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.carlist .car_item a:visited{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.carlist .car_item a:hover{
+	color: #ccff33;
+	text-decoration: none;
+	text-align: center;
+}
+
+.carlist .car_item{
+	clear: right;
+	float: left;
+	margin-top: 2%;
+	margin-left: 2%;
+	width: 22%;
+	min-width: 300px;
+}
+
+.carlist .car_item img:hover{
+	opacity: 0.7;
+}
+
+.carlist h2{
+	color: white;
+	text-align: center;
+}
+
+
+/* CSS for car description web pages */
+.car_page{
+	background-color: #2E2828;
+	color: white;
+}
+.car_detail{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.car_detail h1{
+	text-align: center;
+}
+
+.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+	color: #ccff33;
+	margin-top: 8%;
+}
+
+.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+.breadcrumb li+li:before {
+    padding: 8px;
+    color: white;
+    content: "/\00a0";
+}
+
+.breadcrumb li a {
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.car_detail div{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.main_pic{
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.left_pic{
+	display: block;
+	width: 20%;
+	float: left;
+	margin: 10px;
+}
+
+.right_pic{
+	display: block;
+	width: 20%;
+	float: right;
+	margin: 10px;
+}
+
+.product_hr{
+	margin-top: 7%;
+	margin-bottom: 5%;
+	border-color: #ccff33;
+}
+.product_table{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.product_table table, .product_table table tr td{
+	border: 2px solid #ccff33;
+}
+
+.product_table table{
+	border-collapse: collapse;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.product_table table caption{
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+.product_table .header{
+	padding: 2%;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+}
+
+.button{
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: 5%;
+}
+
+.button a{
+	padding: 2%;
+	border: 2px solid white;
+	background-color: black;
+	text-decoration: none;
+	color: white;
+}
+
+.button a:hover{
+	border: 2px solid white;
+	background-color: white;
+	color: black;
+}
+
+
+/*Enquiry CSS*/
+.body_enquiry{
+	/* The image used */
+		background-image: url("images/lambo1.jpg");
+
+		/* Set a specific height */
+		height: 800px;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color:white;
+		font-size: 1em;
+}
+
+.booking_form{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 5%;	
+}
+
+
+.title_enquiry{
+	text-align:center;
+}
+
+fieldset{
+	margin-left:5%;
+	margin-right:5%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 1% 1%;
+    margin: 1% 0;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 1% 1%;
+    margin: 1% 0;
+    box-sizing: border-box;
+}
+
+input[type=tel] {
+    width: 100%;
+    padding: 1% 1%;
+    margin: 1% 0;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 1% 1%;
+    margin: 1% 0;
+    box-sizing: border-box;
+}
+
+.button{
+	text-align:center;
+}
+
+.submit_enquiry{
+	background-color:none;
+}
+
+.submit_button{
+	font-size:1.4vw;
+	background-color: rgba(0,0,0,0.3);
+	border: none;
+	color:white;
+	padding: 2%;
+	text-decoration: none;	
+	border-radius: 8px;
+	transition-duration: 0.4s;	
+	margin-right:10%;
+	margin-left: 3%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.submit_button:hover{
+	border: 1px solid black;
+	background-color: white;
+	color: black;
+}
+
+.reset_button{
+	font-size:1.4vw;
+	background-color: rgba(0,0,0,0.3);
+	border: none;
+	color:white;
+	padding: 2%;
+	text-decoration: none;	
+	border-radius: 8px;
+	transition-duration: 0.4s;	
+	margin-right:10%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.reset_button:hover{
+	border: 1px solid black;
+	background-color: white;
+	color: black;
+}
+
+/*Confirm CSS*/
+.body_confirm{
+	/* The image used */
+		background-image: url("images/lambo1.jpg");
+
+		/* Set a specific height */
+		height: 100%;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.background_shadding_confirm{
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: #685959;
+	color:white;
+	margin-top:5%;
+}
+
+#bookform{
+	margin-left:10%;
+	margin-right:10%;
+	color:white;
+	margin-top: 5%;
+	padding:5%;
+}
+
+.confirm_legend{
+	text-align: center;
+}
+/*FaQ CSS*/
+.body_faq{
+	/* The image used */
+		background-image: url("images/lambo1.jpg");
+
+		/* Set a specific height */
+		height: 100%;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.background_shading_faq{
+	margin-left: 15%;
+	margin-right: 15%;
+	color:white;
+}
+
+#background_shadding{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.faq{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.faqs_article h1{
+	margin-top: 10%;
+	margin-bottom: 3%;
+	text-align: center;
+	font-size: 1.8em;
+}
+.faqs_hr{
+	width: 5%;
+	color: black;
+	background-color: white;
+	height: 3px;
+	margin-bottom: 3%;
+}
+.question{
+	font-size: 1.4em;
+	margin-bottom: 0;
+}
+.answer{
+	margin-top: 0;
+	font-size: 1em;
+	margin-bottom: 3%;
+}
+
+/* CSS for about#.html web page */
+.about{
+	background-image: url("images/lambo1.jpg");
+
+		/* Set a specific height */
+		height: 100%;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	color: white;	
+	margin-top: 5%;
+}
+
+.hr_about{
+	width: 3%;
+}
+
+.background_shadding_about{
+	padding: 3%;
+	font-size: 1.2em;
+}
+
+.article_about img{
+	border: 5px groove yellow;
+	background-color: black;
+	float: left;
+	width: 20%;
+	padding: 20px;
+	margin: 2%;
+}
+
+.article_about{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+.article_about section .name{
+	text-align: center;
+	font-weight: bold;
+	font-size: 200%;
+}
+
+.article_about section .number{
+	margin-left: auto;
+	margin-right:35%;
+	text-align: right;
+	font-family: Arial, san-serif;
+}
+
+.course{
+	color: rgb(255, 255, 255);
+	padding-left: 35%;	margin-bottom: 5%;
+}
+
+.about_table{
+	margin: 0 auto;
+	border-collapse: collapse;
+	background-color: rgba(255,255,255,0.5);
+	color: black;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.about_table tr th, .about_table tr td{
+	border: 2px solid black;
+	padding: 1%;
+}
+
+.about_table_caption{
+	color: white;
+	FONT-SIZE: 1.2em;
+}
+
+.email_about{
+	text-align: center;
+}
+
+.email_about a{
+	text-decoration: none;
+	color:white;
+}
+
+.email_about a:hover{
+	text-decoration: underline;
+}
+
+/*Disclaimer CSS*/
+.body_disclaimer{
+	/* The image used */
+		background-image: url("images/lambo1.jpg");
+
+		/* Set a specific height */
+		height: 100%;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.disclaimer_article{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.background_shadding_disclaimer{
+	margin-left: 15%;
+	margin-right: 15%;
+	height: 70%;
+	color:white;
+}
+
+.disclaimer_article h1{
+	font-size: 1.8em;
+	text-align: center;
+	margin-bottom: 3%;
+}
+.disclaimer_article p{
+	font-size: 1.2em;
+	margin-bottom: 4%;
+}
+.disclaimer_hr{
+	width: 3%;
+	color: black;
+	background-color: white;
+	height: 3px;
+	margin-bottom: 3%
+}
+
+/* footer CSS*/
+footer{
+	position: relative;
+	width: 100%;
+	background-color: black;
+	float: left;
+}
+.about_us{
+	float: left;
+	margin-left: 6%;
+}
+.about_footer{
+	color: white;
+	font-size: 1em;
+	float: left;
+}
+.about_us a{
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+}
+.about_us a:hover{
+	color: #C6BB25;
+}
+.disclaimer{
+	float:left;
+	margin-left: 6%;
+}
+.disclaimer a{
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+}
+.disclaimer a:hover{
+	color: #C6BB25;
+}
+.social_media{
+	float: left;
+	margin-left: 6%;
+}
+.social_media p{
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+	margin-bottom: 0;
+	margin-left: 6%;
+}
+.social_media img{
+	width: 100%;
+	max-width: 50px;
+	margin-top: 1%;
+}
+.contact_info{
+	margin-right: 3%;
+	color: white;
+	float: right;
+	font-size: 1em;
+}
+.contact_info a{
+	color: white;
+	text-decoration: none;
+}
+.contact_info a:hover{
+	color: #C6BB25;
+}
+
+
+.background_shading_faq{
+	background-color: black;
+	border: 1px solid black;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 70%;
+}
+
+.jv{
+	margin: 0 auto;
+	display: block;
+}
+
+/* Slideshow container */
+.slideshow-container {
+	position: relative;
+	margin-left:10%;
+	margin-right:10%;
+	padding-top:10%;
+	
+}
+
+.mySlides iframe{
+	width:100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	margin-top:3%;
+
+}
+
+.active, .dot:hover {
+  background-color: #C6BB25;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.slideshow_text {
+  color: #f2f2f2;
+  padding-top:1%;
+  font-size: 1.2em;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+/*Enhancements2 CSS*/
+.enhancement_body{
+	background-image: url("images/lambo1.jpg");
+
+		/* Set a specific height */
+		height: 100%;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	color: white;	
+	margin-top: 5%;
+}
+
+.main_title_enhancement{
+	font-size:2.5em;
+	text-align:center;
+	padding-top:3%;
+}
+
+.enhancement_slideshow{
+	margin-top: -5%;
+	margin-bottom:5%;
+	padding-bottom:3%;
+}
+
+.background_shadding_enhancement{
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.ehc_hyperlink{
+	color:white;
+}

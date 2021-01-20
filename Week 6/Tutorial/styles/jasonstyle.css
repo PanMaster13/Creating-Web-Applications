@@ -1,0 +1,75 @@
+/* filename: jasonstyle.css 
+author: Jason Ang Chia Wuen 
+created: 21/3/2018 
+last modified: 21/3/2018 
+description: lab3.html
+*/
+
+*{
+	color: #2F4F4F;
+}
+
+header{
+	text-align: center;
+}
+
+h2{
+	color: rgb(0,128,128);
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+aside, footer{
+	font-style: italic;
+}
+
+#images{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+.special{
+	color: darkorange;
+	font-weight: bold;
+}
+
+nav{
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 0.2em 0.6em;
+	border: 2px solid #ccc;
+}
+
+nav a:hover{
+	background-color: #3399ff;
+}
+
+nav li{
+	display: inline;
+}
+
+section{
+	float: left;
+	margin: auto;
+	width: auto;
+}
+
+aside{
+	float: right;
+	margin-right: 30px;
+	width: 250px;
+}
+
+footer{
+	text-align: center;
+	clear: both;
+}
+
+table, td, th{
+	border: 1px solid black;
+}

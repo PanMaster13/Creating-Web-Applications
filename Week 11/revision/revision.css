@@ -1,0 +1,16 @@
+h1{
+	text-align: center;
+}
+
+p{
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+}
+
+.name{
+	margin-bottom: 20px;
+}
+
+input[type="reset"]{
+	margin: 5px;
+}

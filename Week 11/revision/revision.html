@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Jason" />
+	<meta name="description" content="Revision" />
+	<meta name="keywords" content="revision" />
+	<title>Revision</title>
+	<link rel="stylesheet" type="text/css" href="revision.css" />
+</head>
+<script src="revision.js"></script>
+<body>
+	<h1>Pizza Order Form</h1>
+	
+	<form action="revision.php" method="get" onsubmit="formValidation()">
+		<p class="name">Name: <input id="name" name="name" type="text" required="required"/></p>
+		
+		<p>Pizza Size: 
+			<input name="size" type="radio" value="Small" />Small
+			<input name="size" type="radio" value="Medium" />Medium
+			<input name="size" type="radio" value="Large" />Large
+		</p>
+		
+		<p>Toppings: 
+			<input class="topping" name="topping[]" type="checkbox" value="Peperoni" />Pepperoni
+			<input class="topping" name="topping[]" type="checkbox" value="Chicken Tikka" />Chicken Tikka
+			<input class="topping" name="topping[]" type="checkbox" value="Mushroom" />Mushroom
+			<input class="topping" name="topping[]" type="checkbox" value="Jalapeno" />Jalapeno
+			<input class="topping" name="topping[]" type="checkbox" value="Black Olives" />Black Olives
+		</p>
+		
+		<p>Delivery Option: 
+			<select id="delivery" name="delivery">
+				<option value="Pick Up">Pick-up</option>
+				<option value="Delivery">Delivery</option>
+			</select>
+		</p>
+		
+		<input type="submit" value="Submit" /><input type="reset" value="Reset" />
+	</form>
+</body>
+
+</html>
